@@ -47,7 +47,8 @@ Open index.html in your browser — no server or build step needed.
 
 
 📸 Preview
-![image](https://github.com/user-attachments/assets/21de3f63-97aa-4eb7-aad4-be07c7479417)
+![image](https://github.com/user-attachments/assets/f1676bc5-2523-41fe-982c-199604d36c0d)
+
 
 
 📄 License
