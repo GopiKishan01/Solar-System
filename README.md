@@ -40,7 +40,7 @@ index.html         # Entry point with canvas and UI layout
 Clone this repository
 bash
 Copy
-git clone https://github.com/your-username/3d-solar-system.git
+git clone (https://github.com/GopiKishan01/Solar-System.git)
 cd solar-system
 Run it locally
 Open index.html in your browser — no server or build step needed.
