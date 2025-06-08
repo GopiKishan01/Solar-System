@@ -1,49 +1,60 @@
-----------------------------------------------------------------------------------------------------------------
-✨ Features
+🌌 3D Solar System Simulation
+An interactive 3D simulation of our solar system built with Three.js. This project visualizes the Sun and eight orbiting planets, complete with self-rotation, orbit rings, starfield background, tooltips, and interactive controls.
 
-🌍 Realistic orbit and self-rotation simulation for each planet
-☀️ Glowing Sun with point light source
-🌌 Starfield background using PointsMaterial
-🎛️ Sliders to dynamically control each planet’s orbit speed
-⏯️ Pause/Resume button for animation control
-🪐 Orbit rings for all planets
-🖱️ Mouse drag to rotate camera
-🔍 Mouse wheel to zoom in and out
-🪧 Planet name tooltips and floating labels
+🚀 Features
+☀️ Glowing Sun with realistic light emission
 
-----------------------------------------------------------------------------------------------------------------
+🪐 Eight planets with self-rotation and orbit movement
 
-🛠 Technologies Used
+🌌 Dynamic starfield background
 
+🧭 Orbit rings for each planet
+
+🎛️ Adjustable orbit speed sliders
+
+⏯️ Pause/Resume button
+
+🖱️ Mouse drag to rotate the scene
+
+🔍 Zoom with scroll
+
+🪧 Planet name labels and tooltips on hover
+
+🛠️ Built With
 Three.js – 3D rendering library
+
 HTML5 – structure
+
 CSS3 – styling
+
 JavaScript (ES6 Modules) – logic and interactivity
 
---------------------------------------------------------------------------------------------------------------
-📁 Project Structure
+📁 Folder Structure
+/solar-sytem
+├── main.js        # Main 3D logic (scene, camera, planets, UI, animation)
+├── style.css      # Styling for canvas, UI controls, and tooltips
+index.html         # Entry point with canvas and UI layout
 
-/src
-├── main.js        # JavaScript logic: Three.js setup, animation loop, planet creation, UI handling
-├── style.css      # Styling for canvas, sliders, tooltips, and layout
-index.html         # Main HTML entry file with UI and canvas setup
 
---------------------------------------------------------------------------------------------------------------
-💻 Getting Started
-1. Clone the Repository
+📦 How to Use
+Clone this repository
 bash
 Copy
-Edit
 git clone https://github.com/your-username/3d-solar-system.git
-cd 3d-solar-system
+cd solar-system
+Run it locally
+Open index.html in your browser — no server or build step needed.
 
-2. Open in Browser
-Just open the index.html file in any modern browser (Chrome, Edge, Firefox) that supports ES Modules and WebGL.
---------------------------------------------------------------------------------------------------------------
 
 📸 Preview
+![image](https://github.com/user-attachments/assets/21de3f63-97aa-4eb7-aad4-be07c7479417)
 
---------------------------------------------------------------------------------------------------------------
+
 📄 License
-This project is open source and free to use under the MIT License.
+This project is licensed under the MIT License.
+Feel free to use, modify, or share it with proper credit.
 
+🙌 Acknowledgements
+Inspired by the beauty of our solar system 🌍
+
+Built for learning and visualizing astronomy + 3D rendering with Three.js
