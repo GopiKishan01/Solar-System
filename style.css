@@ -1,0 +1,41 @@
+/* Position the UI in the top-left corner */
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for aesthetics */
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 100;
+  max-width: 300px;
+  font-family: sans-serif;
+}
+
+#pauseBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#pauseBtn:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-spacing: 10px 5px;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* lower than #ui */
+}
